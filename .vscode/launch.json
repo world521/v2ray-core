@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}/release/server/main.go",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "-loglevel", "debug", 
+                "-config", "/home/mike/hdd/P/GoLandProjects/v2ray-core/release/config/vpoint_socks_vmess.json"
+            ]
+        }
+    ]
+}
